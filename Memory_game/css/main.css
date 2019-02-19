@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+}
+h1 {
+    color: #B0B2FF;
+    text-align: center;
+}
+p {
+     text-align: center;
+    color: B0B2FF;
+    border-style: solid;
+}
+#header {
+    text-align: center;
+    color: B0B2FF;
+    border-style: solid;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
